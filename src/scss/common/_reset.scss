@@ -1,0 +1,178 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: inherit;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+ul,
+li,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+button {
+	background-color: transparent;
+	border: 0;
+	cursor: pointer;
+}
+
+fieldset {
+	border: 0;
+}
+.inner {
+	width: 1180px;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 4rem 3rem;
+}
+
+.radio,
+.check {
+	cursor: pointer;
+}
+
+.hidden {
+	position: absolute;
+	text-indent: -9999px;
+}
+
+html,
+body {
+	font-size: 10px;
+	overflow-x: hidden;
+	font-family: $fontDefault;
+}
+h2 {
+	font: bold 4rem/1 $fontPoint;
+	margin-bottom: 4rem;
+}
+
+main section {
+	position: relative;
+	background-color: #fff;
+}
+/* 버튼 */
+
+.btn_wrap {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	button,
+	a,
+	input[type='submit'],
+	input[type='reset'] {
+		margin-right: 0.5em;
+	}
+	button:last-child,
+	a:last-child,
+	input[type='submit']:last-child,
+	input[type='reset']:last-child {
+		margin-right: 0;
+	}
+}
+
+.btn_more {
+	display: inline-block;
+	margin: 0 auto;
+	position: relative;
+	font: 1.6rem/1 $fontPoint;
+
+	&:hover {
+	}
+	span {
+		position: relative;
+		z-index: 1;
+	}
+}
+
+.btn_normal {
+	font-size: 1.4rem;
+	display: inline-block;
+	padding: 0.3em 1em;
+	background-color: $colorPoint-2;
+	font-family: $fontDefault;
+	letter-spacing: 1px;
+	color: #fff;
+	transition: 0.3s;
+	&:hover {
+		background: $colorPoint-1;
+		border-color: $colorPoint-1;
+	}
+}
+.btn_icon {
+	font-size: 1.2rem;
+	width: 3rem;
+	height: 3rem;
+	border: 1px solid #333;
+	border-radius: 50%;
+	transition: color 0.5s;
+	&.btn_del {
+		color: $colorDarkGary;
+		border-color: $colorDarkGary;
+		&:hover {
+			background: $colorDarkGary;
+			color: #fff;
+		}
+	}
+	&.btn_modify {
+		color: $colorPoint-1;
+		border-color: $colorPoint-1;
+		&:hover {
+			background: $colorPoint-1;
+			color: #fff;
+		}
+	}
+	&.btn_success {
+		color: $colorPoint-1;
+		border-color: $colorPoint-1;
+		&:hover {
+			background: $colorPoint-1;
+			color: #fff;
+		}
+	}
+}
+/* 스크롤 감추기 */
+
+.scroll_hidden {
+	height: 100%;
+	min-height: 100%;
+	overflow: hidden !important;
+	touch-action: none;
+}
+.swiper-slide {
+	max-height: 40vh;
+	overflow-y: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.swiper-pagination {
+	font-size: 1.6rem;
+	text-align: center;
+	color: #aaa;
+}
+.swiper-pagination-current {
+	font-size: 2rem;
+	font-weight: bold;
+	color: $colorPoint-1;
+}
+@include tablet {
+	.inner {
+		padding: 0;
+		padding-top: 10rem;
+		padding-bottom: 10rem;
+	}
+	.swiper-slide {
+		max-height: none;
+	}
+}

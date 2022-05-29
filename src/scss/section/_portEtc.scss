@@ -1,0 +1,86 @@
+#proEtc {
+	p {
+		font-size: 2rem;
+		color: $colorDarkGary;
+		margin-bottom: 4rem;
+	}
+	ul {
+		.item {
+			border: 1px solid $colorPoint-1;
+			border-radius: 5px;
+			padding: 1rem;
+			margin-bottom: 2rem;
+			cursor: pointer;
+			.thum {
+				position: relative;
+				.pic {
+					border: 1px solid #fefefe;
+					border-radius: 5px;
+					@include img;
+				}
+				.client {
+					max-width: 8rem;
+					position: absolute;
+					top: 0;
+					right: 0;
+					padding: 5px 10px;
+					background: rgba(255, 255, 255, 0.6);
+					@include img;
+				}
+			}
+			.cont {
+				.title {
+					font-size: 1.6rem;
+					font-weight: bold;
+					padding: 0.5em;
+				}
+				.icons {
+					img {
+						width: 3rem;
+						height: 3rem;
+					}
+				}
+			}
+		}
+	}
+}
+@include mobile {
+	#proEtc {
+		.folio_list {
+			display: flex;
+			flex-wrap: wrap;
+			.item {
+				width: 49%;
+				margin-right: 2%;
+				margin-bottom: 2%;
+				&:nth-of-type(2n) {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
+
+@include mobile {
+	#proEtc {
+		.folio_list {
+			display: flex;
+			flex-wrap: wrap;
+			.item {
+				width: 32%;
+				margin-right: 2%;
+				&:nth-of-type(2n) {
+					margin-right: 2%;
+				}
+				&:nth-of-type(3n) {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
+@include tablet {
+	#proEtc ul .item .thum .client {
+		max-width: 10rem;
+	}
+}

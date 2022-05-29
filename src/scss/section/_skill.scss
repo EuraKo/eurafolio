@@ -1,0 +1,84 @@
+#skill {
+	.skill_group {
+		margin-bottom: 4rem;
+		h3 {
+			font-size: 2rem;
+			color: $colorPoint-1;
+			margin-bottom: 2rem;
+		}
+		.icon_group {
+			display: flex;
+			flex-wrap: wrap;
+			.icon_box {
+				width: calc(100% / 3);
+				font-size: 1.4rem;
+				font-family: $fontPoint;
+
+				text-align: center;
+				margin-bottom: 2rem;
+				p {
+				}
+			}
+		}
+		ul {
+			li {
+				font-size: 1.4rem;
+				margin-bottom: 0.4em;
+				span {
+					font-size: 1.2rem;
+					color: $colorDarkGary;
+				}
+			}
+		}
+	}
+}
+@include mobile {
+	#skill {
+		.skill_group {
+			h3 {
+				font-size: 2.6rem;
+			}
+			.icon_group {
+				.icon_box {
+					width: calc(100% / 4);
+				}
+			}
+		}
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			li {
+				width: 50%;
+			}
+		}
+	}
+}
+@include miniTablet {
+	#skill {
+		.skill_group {
+			.icon_group {
+				.icon_box {
+					width: calc(100% / 6);
+				}
+			}
+		}
+	}
+}
+@include tablet {
+	#skill {
+		.skill_group {
+			.icon_group {
+				.icon_box {
+					width: calc(100% / 12);
+					font-size: 1.6rem;
+				}
+			}
+			ul {
+				li {
+					width: calc(100% / 3);
+					font-size: 1.6rem;
+				}
+			}
+		}
+	}
+}

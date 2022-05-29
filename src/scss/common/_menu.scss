@@ -1,0 +1,35 @@
+.mob_menu {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 10;
+	background: rgba(255, 255, 255, 0.4);
+	font-family: $fontPoint;
+	ul {
+		width: 280px;
+		height: 100%;
+		position: relative;
+		background: #fff;
+		padding: 10rem 1rem;
+		li {
+			margin-bottom: 2rem;
+			a {
+				font-size: 2rem;
+			}
+		}
+	}
+	.join {
+		font-size: 2rem;
+		position: absolute;
+		bottom: 0;
+		right: 1rem;
+		color: $colorPoint-2;
+	}
+}
+@include tablet {
+	.mob_menu {
+		display: none;
+	}
+}

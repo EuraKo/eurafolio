@@ -1,0 +1,86 @@
+#intro {
+	height: calc(100vh - 80px);
+	display: flex;
+	align-items: center;
+	position: relative;
+	h2 {
+		font: bold 4rem/1.6 $fontPoint;
+	}
+	.job {
+		font: 2rem/1 $fontPoint;
+		color: $colorDarkGary;
+	}
+	.btn_wrap {
+		margin-top: 6rem;
+		justify-content: flex-start;
+	}
+	.blob {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		right: -20%;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: -1;
+		svg {
+			width: 100%;
+			height: 100%;
+			transform-origin: 50% 50%;
+			animation: move 24s ease-in-out infinite;
+		}
+	}
+}
+
+@keyframes move {
+	0% {
+		transform: scale(1) translate(0, 0) rotate(0);
+		fill: $colorPoint-1;
+		filter: drop-shadow(20px 14px 10px $colorLightGray);
+	}
+	25% {
+		transform: scale(0.8) translate(5vw, 10vh) rotate(55deg);
+		fill: $colorPoint-2;
+		filter: drop-shadow(14px 14px 6px $colorLightGray);
+	}
+	50% {
+		transform: scale(0.6) translate(15vw, 5vh) rotate(180deg);
+		fill: $colorPoint-1;
+		filter: drop-shadow(-16px -16px 16px $colorLightGray);
+	}
+	75% {
+		transform: scale(0.8) translate(5vw, 10h) rotate(55deg);
+		fill: $colorPoint-2;
+		filter: drop-shadow(14px 14px 6px $colorLightGray);
+	}
+	100% {
+		transform: scale(1) translate(0, 0) rotate(0);
+		fill: $colorPoint-1;
+		filter: drop-shadow(20px 14px 10px $colorLightGray);
+	}
+}
+
+@include mobile {
+	#intro {
+		h2 {
+			font-size: 5rem;
+		}
+	}
+}
+@include miniTablet {
+	#intro {
+		h2 {
+			font-size: 6rem;
+		}
+	}
+}
+
+@include tablet {
+	#intro {
+		h2 {
+			font-size: 8rem;
+		}
+		.job {
+			font-size: 3rem;
+		}
+	}
+}

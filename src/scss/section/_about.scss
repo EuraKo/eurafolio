@@ -1,0 +1,62 @@
+#about {
+	background: #eee;
+	.about_box {
+		.pic {
+			width: 12rem;
+			height: 12rem;
+			margin: 0 auto;
+			border-radius: 50%;
+			margin-bottom: 2rem;
+			@include img;
+		}
+		h3 {
+			font-size: 2rem;
+			margin-bottom: 2rem;
+		}
+		.desc {
+			font-size: 1.4rem;
+		}
+	}
+	.mysite {
+		margin-top: 2rem;
+	}
+}
+@include mobile {
+	#about {
+		.about_box {
+			display: flex;
+			align-items: center;
+			.pic {
+				width: 20rem;
+				height: 20rem;
+			}
+			.left {
+				padding-left: 2rem;
+			}
+		}
+	}
+}
+@include miniTablet {
+	#about {
+		.about_box {
+			.left {
+				padding-left: 4rem;
+			}
+		}
+	}
+}
+@include tablet {
+	#about {
+		.about_box {
+			.left {
+				padding-left: 4rem;
+				h3 {
+					font-size: 3rem;
+				}
+				.desc {
+					font-size: 1.6rem;
+				}
+			}
+		}
+	}
+}

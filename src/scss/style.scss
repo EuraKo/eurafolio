@@ -1,0 +1,23 @@
+// abstracts
+@import './abstracts/variables';
+@import './abstracts/mixins';
+// common
+@import './common/reset';
+@import './common/header';
+@import './common/menu';
+@import './common/footer';
+@import './common/layout';
+@import './common/modal';
+// section
+@import './section/visual';
+@import './section/about';
+@import './section/skill';
+@import './section/portReact';
+@import './section/portEs6';
+@import './section/portNode';
+@import './section/portEtc';
+// main
+// @import './main/visual';
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&family=Work+Sans:wght@200;400;500;700&display=swap');

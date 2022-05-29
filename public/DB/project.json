@@ -1,0 +1,388 @@
+{
+  "project": [
+    {
+      "title": "LX DT",
+      "thumImg": "",
+      "clientImg": "logo_lx.svg",
+      "client": "한국국토정보공사",
+      "bigImg": [
+        "no.png"
+      ],
+      "url": "",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "모듈화를 시켜 생산성을 높이고 유지보수를 유리하게 하기위해, scss와 pug 사용하했고, 이를 컴파일하기위해 gulp를 사용햤습니다.",
+      "skill": [
+        "gulp",
+        "pug",
+        "scss",
+        "js",
+        "jquery"
+      ]
+    },
+    {
+      "title": "기후 위기 적응 정보 포털",
+      "thumImg": "thum_weather.png",
+      "clientImg": "mark-kaccc.png",
+      "client": "국가기후위기적응센터",
+      "bigImg": [
+        "weather/img1.png",
+        "weather/img2.png",
+        "weather/img3.png",
+        "weather/img4.png"
+      ],
+      "url": "https://www.ccaipath.kaccc.kei.re.kr/",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "웹접근성 인증마크를 취득한 사이트로서 이후 많은 접근성 프로젝트를 의뢰가 들어온 프로젝트입니다.",
+      "skill": [
+        "html",
+        "css",
+        "js",
+        "jquery"
+      ]
+    },
+    {
+      "title": "IONIQ",
+      "thumImg": "thum_hy.png",
+      "clientImg": "logo_hy.png",
+      "client": "현대자동차",
+      "bigImg": [
+        "ioniq/img1.png",
+        "ioniq/img2.png",
+        "ioniq/img3.png",
+        "ioniq/img4.png"
+      ],
+      "url": "https://digitalownersmanual.hyundai.com/",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "현대자동차의 아이오닉 차량 가이드입니다.",
+      "skill": [
+        "html",
+        "css",
+        "js",
+        "jquery"
+      ]
+    },
+    {
+      "title": "GENESIS DRIVER'S GUIDE(국문, 영문)",
+      "thumImg": "thum_genesis.png",
+      "clientImg": "logo_genesis.png",
+      "client": "제네시스",
+      "bigImg": [
+        "genesis/genesis_1.png",
+        "genesis/genesis_2.png",
+        "genesis/genesis_3.png",
+        "genesis/genesis_4.png"
+      ],
+      "url": "http://driversguide.genesis.com/",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "제네시스 자동차 가이드로 360회전 이미지와 파노라마, Three.js를 사용하여 구현한 프로젝트입니다.",
+      "skill": [
+        "html",
+        "css",
+        "js",
+        "jquery",
+        "three"
+      ]
+    },
+    {
+      "title": "EDC 스마트시티",
+      "thumImg": "thum_edc.png",
+      "clientImg": "logo_water.png",
+      "client": "수자원",
+      "bigImg": [
+        "water/edc1.png",
+        "water/edc2.png"
+      ],
+      "url": "https://busan.ecodelta-smartcity.kr/edcpub/",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "수자원에서 진행한 부산 에코델타 스마트시티 홍보 사이트 입니다.",
+      "skill": [
+        "html",
+        "css",
+        "js",
+        "jquery"
+      ]
+    },
+    {
+      "title": "부산 에코델타 스마트빌리지",
+      "thumImg": "thum_villige.png",
+      "clientImg": "logo_water.png",
+      "client": "수자원",
+      "bigImg": [
+        "water/villige1.png",
+        "water/villige2.png",
+        "water/villige3.png"
+      ],
+      "url": "https://busan-smartvillage.com/",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "수자원에서 진행한 부산 에코델타 스마트시티 분양 사이트 입니다.",
+      "skill": [
+        "html",
+        "css",
+        "js",
+        "jquery"
+      ]
+    },
+    {
+      "title": "스마트 그린 시티",
+      "thumImg": "thum_green.png",
+      "clientImg": "logo_water.png",
+      "client": "수자원",
+      "bigImg": [
+        "water/green1.png",
+        "water/green2.png",
+        "water/green3.png"
+      ],
+      "url": "https://smartgreencity.kr/",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "스마트 그린도시 홍보페이지로 three.js 본격적으로 시작한 프로젝트입니다.",
+      "skill": [
+        "html",
+        "css",
+        "js",
+        "jquery",
+        "three"
+      ]
+    },
+    {
+      "title": "KCVG(Kia Customer Vitural Guide)",
+      "thumImg": "thum_kcvg.png",
+      "clientImg": "logo_kia.png",
+      "client": "KIA",
+      "bigImg": [
+        "kcvg/img1.png",
+        "kcvg/img2.png",
+        "kcvg/img3.png"
+      ],
+      "url": "http://astkorea.net",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "마지막으로 근무했던 회사 사이트입니다. 스마트플랫폼 팀, 콘텐츠 팀, 번역팀 총 3개의 사이트로 구성되어있습니다.",
+      "skill": [
+        "html",
+        "css",
+        "js",
+        "jquery"
+      ]
+    },
+    {
+      "title": "KIA 3D ACCESSARY",
+      "thumImg": "thum_3dc.png",
+      "clientImg": "logo_kia.png",
+      "client": "KIA",
+      "bigImg": [
+        "3dac/img1.png",
+        "3dac/img2.png",
+        "3dac/img3.png",
+        "3dac/img4.png"
+      ],
+      "url": "http://3dacc.kia.com/",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "three.js(외부)와 이미지 파노라마(내부)를 사용하여 부품의 단가를 계산하는 사이트입니다.낮과 밤버튼이 있어 클릭을 하면 해당 이미지로 바뀌어야하며 외부의 경우 클릭 시 확대 및 애니메이션이 추가되는 기능을 개발했습니다.",
+      "skill": [
+        "html",
+        "css",
+        "js",
+        "jquery"
+      ]
+    },
+    {
+      "title": "AST - 에이에스티 홀딩스",
+      "thumImg": "thum_ast.png",
+      "clientImg": "ast_logo.png",
+      "client": "에이에스티홀딩스",
+      "bigImg": [
+        "ast/img1.png",
+        "ast/img2.png",
+        "ast/img3.png",
+        "ast/img4.png"
+      ],
+      "url": "http://astkorea.net",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "마지막으로 근무했던 회사 사이트입니다. 스마트플랫폼 팀, 콘텐츠 팀, 번역팀 총 3개의 사이트로 구성되어있습니다.",
+      "skill": [
+        "html",
+        "css",
+        "js",
+        "jquery"
+      ]
+    },
+    {
+      "title": "MY SCORE 랜딩페이지",
+      "thumImg": "thum_my.png",
+      "clientImg": "ast_logo.png",
+      "client": "에이에스티홀딩스 - 태국법인",
+      "bigImg": [
+        "myscore/img1.png",
+        "myscore/img2.png"
+      ],
+      "url": "https://golfmyscore.com/",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "에이에스티홀딩스 태국법인 골프 어플 랜딩 페이지입니다.",
+      "skill": [
+        "html",
+        "css",
+        "js",
+        "jquery"
+      ]
+    },
+    {
+      "title": "SWPMS",
+      "thumImg": "thum_sw.png",
+      "clientImg": "logo_sw.png",
+      "client": "세원정밀",
+      "bigImg": [
+        "sewon/img1.png",
+        "sewon/img2.png",
+        "sewon/img3.png"
+      ],
+      "url": "",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "세원정밀 admin 사이트 입니다.",
+      "skill": [
+        "html",
+        "css",
+        "js",
+        "jquery"
+      ]
+    },
+    {
+      "title": "세원정밀",
+      "thumImg": "thum_sewon.png",
+      "clientImg": "logo_sw.png",
+      "client": "세원정밀",
+      "bigImg": [
+        "sewon/sw1.png",
+        "sewon/sw2.png"
+      ],
+      "url": "",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "세원정밀 공식 사이트 입니다.",
+      "skill": [
+        "html",
+        "css",
+        "js",
+        "jquery"
+      ]
+    },
+    {
+      "title": "자동차 네비게이션 매뉴얼",
+      "thumImg": "thum_mobis.png",
+      "clientImg": "logo_mobis.png",
+      "client": "현대모비스",
+      "bigImg": [
+        "manual/kia1.png",
+        "manual/kia2.png",
+        "manual/hy1.png",
+        "manual/hy2.png"
+      ],
+      "url": "http://webmanual.hyundai.com/STD_GEN5W/AVNT/KOR/Korean/index.html",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "고객사 내부 서버에 내장되는 다국어 사이트로 서버언어를 붙히지 못하여 html, css, js로만 구현된 사이트입니다.",
+      "skill": [
+        "html",
+        "css",
+        "js",
+        "jquery"
+      ]
+    },
+    {
+      "title": "삼성 무선사업부 내장 매뉴얼",
+      "thumImg": "thum_ss.png",
+      "clientImg": "logo_samsung.svg",
+      "client": "삼성전자",
+      "bigImg": [
+        "manual/ss1.png",
+        "manual/ss2.png",
+        "manual/ss3.png",
+        "manual/ss4.png",
+        "manual/ss5.png"
+      ],
+      "url": "https://downloadcenter.samsung.com/content/MC/202201/20220128103612662/KO/Kor/start_here.html",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "삼성전자 휴대폰, 태블릿, 워치등의 무선 기기에 내장되어 있는 다국어 매뉴얼입니다.서버 언어가 붙을 수 없어 오로지 html, css, js로만 기능 구현을 했습니다.",
+      "skill": [
+        "html",
+        "css",
+        "js",
+        "jquery"
+      ]
+    },
+    {
+      "title": "삼성 생활가전 매뉴얼",
+      "thumImg": "thum_sg.png",
+      "clientImg": "logo_samsung.svg",
+      "client": "삼성전자",
+      "bigImg": [
+        "manual/sg1.png",
+        "manual/sg2.png",
+        "manual/sg3.png"
+      ],
+      "url": "",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "삼성 생활가전에서 큐알코드로 찍으면 들어가는 매뉴얼입니다.서버 언어가 붙을 수 없어 오로지 html, css, js로만 기능 구현을 했습니다.",
+      "skill": [
+        "html",
+        "css",
+        "js",
+        "jquery"
+      ]
+    },
+    {
+      "title": "삼성 미주법인 무선 매뉴얼",
+      "thumImg": "thum_usa.png",
+      "clientImg": "logo_samsung.svg",
+      "client": "삼성전자 미주법인",
+      "bigImg": [
+        "sewon/usa1.png",
+        "sewon/usa2.png"
+      ],
+      "url": "",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "삼성 미주법인에 납품되는 다국어 사이트입니다.서버 언어가 붙을 수 없어 오로지 html, css, js로만 기능 구현을 했습니다.",
+      "skill": [
+        "html",
+        "css",
+        "js",
+        "jquery"
+      ]
+    },
+    {
+      "title": "부산 에코델타시티 스마트시티 설문조사",
+      "thumImg": "thum_sm.png",
+      "clientImg": "logo_water.png",
+      "client": "수자원",
+      "bigImg": [
+        "water/sm1.png",
+        "water/sm2.png",
+        "water/green3.png"
+      ],
+      "url": "http://smartcity1st.com/open/index.php",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "스마트시티 설문조사 및 이벤트 페이지입니다.",
+      "skill": [
+        "html",
+        "css",
+        "js",
+        "jquery"
+      ]
+    },
+    {
+      "title": "AST WORKS",
+      "thumImg": "thum_work.png",
+      "clientImg": "ast_logo.png",
+      "client": "에이에스티홀딩스",
+      "bigImg": [
+        "ast/w1.png",
+        "ast/w2.png"
+      ],
+      "url": "",
+      "working": "2021.11.05 ~ 2022.02.21",
+      "desc": "사내 PMS 입니다.",
+      "skill": [
+        "html",
+        "css",
+        "js",
+        "jquery"
+      ]
+    }
+  ]
+}
