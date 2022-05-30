@@ -19,7 +19,10 @@ function PortEs6() {
 						<dd>Hello &amp; Co.</dd>
 						<dt>URL</dt>
 						<dd>
-							<a href='https://eurako.github.io/helloCo/' className='cont'>
+							<a
+								href='https://eurako.github.io/helloCo/'
+								className='cont'
+								target='_blank'>
 								https://eurako.github.io/helloCo/
 							</a>
 						</dd>

@@ -19,7 +19,10 @@ function PortNode() {
 						<dd>CRUD 게시판</dd>
 						<dt>URL</dt>
 						<dd>
-							<a href='https://react-jun.herokuapp.com/' className='cont'>
+							<a
+								href='https://react-jun.herokuapp.com/'
+								className='cont'
+								target='_blank'>
 								https://react-jun.herokuapp.com/
 							</a>
 						</dd>

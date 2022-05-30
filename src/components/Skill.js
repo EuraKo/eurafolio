@@ -76,7 +76,7 @@ function Skill() {
 						<h3>Certificate</h3>
 						<ul>
 							<li>
-								컴퓨터그래픽스운용기능사 / <span>한국생산성본부</span>
+								컴퓨터그래픽스운용기능사 / <span>한국산업인력공단</span>
 							</li>
 							<li>
 								웹디자인기능사 / <span>한국산업인력공단</span>

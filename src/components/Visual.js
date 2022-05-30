@@ -12,7 +12,7 @@ function Visual() {
 					<p className='job'>Web Publisher</p>
 				</div>
 				<div className='btn_wrap'>
-					<a href={`${path}/img/portfolio.pdf`} className='btn_normal' download>
+					<a href={`${path}/img/portflio.pdf`} className='btn_normal' download>
 						guide
 					</a>
 					<a href='' className='btn_normal'>

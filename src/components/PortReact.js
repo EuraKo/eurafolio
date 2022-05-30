@@ -19,7 +19,10 @@ function PortReact() {
 						<dd>massive .</dd>
 						<dt>URL</dt>
 						<dd>
-							<a href='https://eurako.github.io/massive' className='cont'>
+							<a
+								href='https://eurako.github.io/massive'
+								className='cont'
+								target='_blank'>
 								https://eurako.github.io/massive
 							</a>
 						</dd>

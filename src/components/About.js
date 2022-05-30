@@ -30,10 +30,15 @@ function About() {
 								</p>
 							</div>
 							<div className='mysite'>
-								<a href='https://github.com/EuraKo' className='btn_normal'>
+								<a href='https://github.com/EuraKo' target='_blank'>
+									<img src={`${path}/img/git.png`} alt='깃허브 주소 바로가기' />
 									git hub
 								</a>
-								<a href='https://mongzs.tistory.com/' className='btn_normal'>
+								<a href='https://mongzs.tistory.com/' target='_blank'>
+									<img
+										src={`${path}/img/blog.png`}
+										alt='블로그 주소 바로가기'
+									/>
 									blog
 								</a>
 							</div>

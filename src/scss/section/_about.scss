@@ -19,6 +19,19 @@
 	}
 	.mysite {
 		margin-top: 2rem;
+		display: flex;
+		a {
+			display: flex;
+			align-items: center;
+			font-size: 1.6rem;
+			font-family: $fontPoint;
+			margin-right: 1em;
+			img {
+				width: 4rem;
+				height: 4rem;
+				margin-right: 1rem;
+			}
+		}
 	}
 }
 @include mobile {
