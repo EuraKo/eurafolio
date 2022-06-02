@@ -12,13 +12,16 @@ function Visual() {
 					<p className='job'>Web Publisher</p>
 				</div>
 				<div className='btn_wrap'>
-					<a href={`${path}/img/portflio.pdf`} className='btn_normal' download>
+					<a
+						href={`${path}/img/portflio.pdf`}
+						className='btn_normal'
+						download='download'>
 						작업설명서 다운로드
 					</a>
 					<a
 						href={`${path}/img/resume.pdf`}
 						className='btn_normal btn_resume'
-						dowmnload>
+						dowmnload='download'>
 						이력서
 					</a>
 				</div>
