@@ -71,6 +71,9 @@ function PortReact() {
 							</ul>
 						</dd>
 					</dl>
+					<a href={`${path}/img/massive.pdf`} download className='btn_normal'>
+						작업설명서 다운로드
+					</a>
 				</div>
 			</div>
 		</section>

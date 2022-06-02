@@ -7,6 +7,7 @@ function Skill() {
 				{ name: 'react', img: 'react' },
 				{ name: 'redux', img: 'redux' },
 				{ name: 'redux-saga', img: 'saga' },
+				{ name: 'accessiblity', img: 'acc' },
 				{ name: 'ES6', img: 'es6' },
 				{ name: 'html', img: 'html' },
 				{ name: 'css', img: 'css' },

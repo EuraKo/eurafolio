@@ -1,7 +1,10 @@
 $headerH: 6rem;
 header {
 	height: $headerH;
-	position: relative;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 	z-index: 10;
 	.inner {
 		height: 100%;
@@ -86,7 +89,7 @@ header {
 	width: 100%;
 	position: fixed;
 	background: #fff;
-	border-bottom: 1px solid $colorPoint-1;
+	border-bottom: 1px solid $colorPoint-2;
 	transition: 0.5s;
 	.inner {
 		padding: 0;
@@ -100,8 +103,6 @@ header {
 }
 .header_firstSec {
 	height: 8rem;
-	background: linear-gradient(to bottom, #fff, transparent);
-	border-bottom: 0;
 	h1 {
 		width: 6rem;
 		height: 6rem;

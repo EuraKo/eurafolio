@@ -28,10 +28,10 @@ function Header(props) {
 	}, [props.fisrtSec]);
 	return (
 		<>
-			<header className={`${props.type}`} ref={header}>
+			<header className='header_main' ref={header}>
 				<div className='inner'>
 					<h1 className='logo'>
-						<a href='#'>
+						<a href='#intro'>
 							<img src={`${path}/img/my_logo.svg`} alt='로고' />
 						</a>
 					</h1>
@@ -52,16 +52,20 @@ function Header(props) {
 					<nav id='gnb'>
 						<ul>
 							<li>
-								<a href='#intro'>intro</a>
+								<a href='#intro'>Intro</a>
 							</li>
 							<li>
-								<a href='#about'>indroduce</a>
+								<a href='#about'>About me</a>
 							</li>
 							<li>
-								<a href='#skill'>skill</a>
+								<a href='#skill'>Skill</a>
 							</li>
 							<li>
-								<a href='#portfolio'>prtrfolio</a>
+								<a href='#portReact'>Portfolio</a>
+							</li>
+
+							<li>
+								<a href='#proEtc'>Publisher</a>
 							</li>
 						</ul>
 					</nav>

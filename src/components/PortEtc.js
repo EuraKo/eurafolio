@@ -48,7 +48,7 @@ function PortEtc() {
 												/>
 											) : (
 												<img
-													src={`${path}/img/project/no.png`}
+													src={`${path}/img/project/thum_no.jpg`}
 													alt={`보안규정상 이미지를 제공할 수 없습니다.`}
 												/>
 											)}
@@ -73,13 +73,11 @@ function PortEtc() {
 				{projectData.length !== 0 && (
 					<>
 						<Swiper
-							autoHeight={true}
-							slidesPerView={1}
+							// slidesPerView={1}
 							grabCursor={true}
 							pagination={{
 								type: 'fraction',
 							}}
-							navigation={true}
 							modules={[Pagination, Navigation]}>
 							{projectData[index].bigImg.map((img, idx) => {
 								return (
@@ -95,7 +93,7 @@ function PortEtc() {
 
 						<div className='site_info'>
 							<h2>{projectData[index].title}</h2>
-							<div className='group'>
+							<div className='group logo'>
 								<div className='title'>CLient .</div>
 								<div className='desc'>
 									<img

@@ -17,6 +17,16 @@ function About() {
 								안녕하세요,
 								<br /> 프론트엔드 개발자로 새로운 도약을 꿈꾸는 고유라입니다.
 							</h3>
+							<div className='info'>
+								<div className='mail'>
+									<img src={`${path}/img/icon/icon_mail.png`} alt='' />
+									<a href='mailto:sow5252@gamil.com'>sow5252@gamil.com</a>
+								</div>
+								<div className='tel'>
+									<img src={`${path}/img/icon/icon_tel.png`} alt='' />
+									<a href='tel:01082228443'>010.8222.8443</a>
+								</div>
+							</div>
 							<div className='desc'>
 								<p>
 									저는 지난 4년동안 퍼블리셔로 일하며, 개발에 관심을 가졌습니다.

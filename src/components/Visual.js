@@ -13,10 +13,10 @@ function Visual() {
 				</div>
 				<div className='btn_wrap'>
 					<a href={`${path}/img/portflio.pdf`} className='btn_normal' download>
-						guide
+						작업설명서 다운로드
 					</a>
 					<a href='' className='btn_normal'>
-						resume
+						이력서
 					</a>
 				</div>
 				<div className='blob'>

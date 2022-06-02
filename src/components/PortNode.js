@@ -85,6 +85,9 @@ function PortNode() {
 							</ul>
 						</dd>
 					</dl>
+					<a href={`${path}/img/notice.pdf`} download className='btn_normal'>
+						작업설명서 다운로드
+					</a>
 				</div>
 			</div>
 		</section>

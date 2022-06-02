@@ -5,9 +5,9 @@
 	color: inherit;
 }
 
-::-webkit-scrollbar {
-	display: none;
-}
+// ::-webkit-scrollbar {
+// 	display: none;
+// }
 
 ul,
 li,
@@ -150,7 +150,6 @@ main section {
 	touch-action: none;
 }
 .swiper-slide {
-	max-height: 40vh;
 	overflow-y: auto;
 	display: flex;
 	justify-content: center;

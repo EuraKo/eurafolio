@@ -6,16 +6,18 @@
 	}
 	ul {
 		.item {
-			border: 1px solid $colorPoint-1;
+			border: 1px solid $colorPoint-2;
 			border-radius: 5px;
 			padding: 1rem;
 			margin-bottom: 2rem;
 			cursor: pointer;
 			.thum {
 				position: relative;
+				overflow: hidden;
 				.pic {
-					border: 1px solid #fefefe;
+					border: 1px solid $colorPoint-2;
 					border-radius: 5px;
+
 					@include img;
 				}
 				.client {
@@ -24,7 +26,7 @@
 					top: 0;
 					right: 0;
 					padding: 5px 10px;
-					background: rgba(255, 255, 255, 0.6);
+					background: rgba(200, 200, 200, 0.6);
 					@include img;
 				}
 			}
@@ -33,11 +35,22 @@
 					font-size: 1.6rem;
 					font-weight: bold;
 					padding: 0.5em;
+					color: $colorDarkGary;
 				}
 				.icons {
 					img {
 						width: 3rem;
 						height: 3rem;
+					}
+				}
+			}
+			&:hover {
+				.thum {
+					.pic img {
+						transform: scale(1.2);
+					}
+					.client {
+						background: rgba(200, 200, 200, 1);
 					}
 				}
 			}
