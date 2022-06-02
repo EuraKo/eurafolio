@@ -13,6 +13,11 @@
 	.btn_wrap {
 		margin-top: 6rem;
 		justify-content: flex-start;
+		a.btn_resume {
+			background: $colorPoint-1;
+			box-shadow: 0 0 0 rgba($colorPoint-1, 0.5);
+			animation: shainy 1s infinite linear alternate;
+		}
 	}
 	.blob {
 		width: 100%;
@@ -30,7 +35,14 @@
 		}
 	}
 }
-
+@keyframes shainy {
+	0% {
+		box-shadow: 0 0 0 $colorPoint-1;
+	}
+	100% {
+		box-shadow: 0 0 30px $colorPoint-1;
+	}
+}
 @keyframes move {
 	0% {
 		transform: scale(1) translate(0, 0) rotate(0);

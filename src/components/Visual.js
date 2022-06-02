@@ -15,7 +15,10 @@ function Visual() {
 					<a href={`${path}/img/portflio.pdf`} className='btn_normal' download>
 						작업설명서 다운로드
 					</a>
-					<a href='' className='btn_normal'>
+					<a
+						href={`${path}/img/resume.pdf`}
+						className='btn_normal btn_resume'
+						dowmnload>
 						이력서
 					</a>
 				</div>
