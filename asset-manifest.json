@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/eurafolio/static/css/main.1f50b442.css",
-    "main.js": "/eurafolio/static/js/main.c0719f9f.js",
+    "main.js": "/eurafolio/static/js/main.84e21ced.js",
     "index.html": "/eurafolio/index.html",
     "main.1f50b442.css.map": "/eurafolio/static/css/main.1f50b442.css.map",
-    "main.c0719f9f.js.map": "/eurafolio/static/js/main.c0719f9f.js.map"
+    "main.84e21ced.js.map": "/eurafolio/static/js/main.84e21ced.js.map"
   },
   "entrypoints": [
     "static/css/main.1f50b442.css",
-    "static/js/main.c0719f9f.js"
+    "static/js/main.84e21ced.js"
   ]
 }
