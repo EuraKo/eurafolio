@@ -18,12 +18,12 @@ function Visual() {
 						download='download'>
 						작업설명서 다운로드
 					</a>
-					<a
+					{/* <a
 						href={`${path}/img/resume.pdf`}
 						className='btn_normal btn_resume'
 						dowmnload='download'>
 						이력서
-					</a>
+					</a> */}
 				</div>
 				<div className='blob'>
 					<svg viewBox='0 0 600 600'>
